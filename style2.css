@@ -20,6 +20,7 @@ html {
     background-position:center; 
     object-fit:cover;
     filter: blur(-100px);
+    border-bottom:1.5px solid rgb(245, 245, 245);
   
 
 } 
@@ -317,13 +318,15 @@ nav{
 .head{
     font-size:46px;
    
-    color:rgb(235, 67, 67);
+    color:rgb(224, 66, 66);
     /* font-family: 'Metal Mania';font-size: 62px; */
     font-weight:200;
     background-color:#ccedf3;
-    border:3px solid rgba(235, 232, 82, 0.877);
-    border-radius:40px;
+    /* border:2.5px solid rgb(6, 29, 240); */
+   
+        border-radius:40px;
     margin:2%;
+    box-shadow:1px 1px 4.5px 5px  rgba(17, 239, 255, 0.993)
     
     }
     .dis{
@@ -614,6 +617,7 @@ nav{
    
      border-radius:10px;
      border:2px solid rgb(191, 245, 175);
+     box-shadow:1px 2px 5.5px 10px  rgba(4, 248, 236, 0.993)
 }
 .icons .fa{
     color:rgba(194, 235, 231, 0.822);
@@ -680,7 +684,7 @@ nav{
     font-size:37px;
     font-weight: 500;
     background-color:#ccedf3;
-    border:2.5px solid rgba(240, 225, 18, 0.986);
+   border:3px solid rgb(123, 255, 0);
     border-radius:40px;
 }
 .head h1{
@@ -691,7 +695,7 @@ nav{
     margin:6%;
     border-radius:10px;
     border:2px solid rgb(231, 218, 25);
-  
+    box-shadow:1px 1px 4.5px 5px  rgba(17, 239, 255, 0.993)
   
 }
 .nme{
