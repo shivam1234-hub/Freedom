@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+    <link rel="shortcut icon" class="favicon" type="image/jpg" href="images/40.jpg"/>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Denk One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Elsie Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Federant' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+</head>
+<body>
+    <a name="top"></a>
+    <div class="wrapper">
+        <div class="text-box">
+            <h1 id="name">Freedom Palace</h1>
+            <p id="own">owned by Vijay Family</p>
+            
+     
+        </div>
+       
+
+    <section id="header">
+        <nav id="navbar">
+            <!-- <div class="nav-head"> -->
+             <a href ="project.html"><img id="logo" src="images/40.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times  " id="hide" onclick="hideMenu();setTimeout(chngcolor,700)"></i>
+            <ul >
+                <li><a href="#header">Home</a></li>
+                <li><a href="#facility">Facility</a></li>
+                <li><a href="#advice">Advice</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+            
+        </div>
+        <i class="fa fa-bars " id="show" onclick="showMenu()"></i> 
+        
+        </nav>
+       
+    </section>
+  
+   
+    <section id="facility">
+       
+        <h1 class="head">Specialisation</h1>
+        <p class="dis">We are here to provide best quality food  in best price,so here are top three elements from our menu-list.</p>
+        <div class=cards>
+          
+            <div class="container">
+                <div class="item-1 bg">
+                    <img src="images/500.jpeg" >
+                    <div class="content">
+                        <div class="add">
+                    <h2>PIZZA</h2>
+                    
+                    <button  id="btton0" onclick="chngtext0()"  type="button">Add+</button>
+                    
+                </div>
+                    <p>This is our famous Upside Down pizza loaded with ample amount of cheeze.</p>
+                    <br>
+                    <h3>PRICE:Rs.180</h3>
+                  
+                  </div>
+                </div>
+                <div class="item-2 bg ">
+                  <img src="images/501.jpg">
+                  <div class="content">
+                    <div class="add">
+                  <h2>BURGER</h2>
+                
+                  <button  id="btton1" onclick="chngtext1()"  type="button">Add+</button>
+                </div>
+                  <p>This is our famous rich and creamy burger again loaded with ample amount of chess and vegetables.</p>
+                  <br>
+                  <h3>PRICE:Rs.60</h3>
+              </div>
+              </div>
+              <div class="item-3 bg">
+                  <img src="images/502.jpg">
+                  <div class="content">
+                    <div class="add">
+                  <h2>PASTA</h2>
+                  <button  id="btton2" onclick="chngtext2()"  type="button">Add+</button>
+                </div>
+                  <p>This is our famous creamy red sauce pasta with full of vegetables.</p>
+                  <br>
+                  <h3>PRICE:Rs.50</h3>
+              </div>
+              </div>
+              </div>  
+           
+    </section>
+    <section id="advice">
+        <h1 class="head"> Advice</h1>
+        <div class=cards>
+          
+            <div class="container">
+                <div class="item-1 bg">
+                    <img src="images/500.jpeg" >
+                    <div class="content">
+                      
+                    <h2>PIZZA</h2>
+                    
+                   
+                
+            
+                    <p>This is our famous Upside Down pizza loaded with ample amount of cheeze.</p>
+                    <br>
+                    <div class="search">
+                        <input type='text' class="search-txt" placeholder='Search...' id="inser" />
+                        <i class="fa fa-search  sear fa-2x"></i>
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="item-2 bg ">
+                  <img src="images/501.jpg">
+                  <div class="content">
+                    
+                  <h2>BURGER</h2>
+                
+                 
+                  <p>This is our famous rich and creamy burger again loaded with ample amount of chess and vegetables.</p>
+                  <br>
+                
+                 
+                <div class="search">
+                    <input type='text' class="search-txt" placeholder='Search...' id="inser" />
+                    <i class="fa fa-search  sear fa-2x"></i>
+                </div>
+              </div>
+              </div>
+              <div class="item-3 bg">
+                  <img src="images/502.jpg">
+                  <div class="content">
+                   
+                  <h2>PASTA</h2>
+                 
+                  <p>This is our famous creamy red sauce pasta with full of vegetables.</p>
+                  <br>
+                  <div class="search">
+                    <input type='text' class="search-txt" placeholder='Search...' id="inser" />
+                    <i class="fa fa-search  sear fa-2x"></i>
+                </div>
+             
+              </div>
+              </div>
+              </div>  
+
+    </section>
+    <section id="reviews">
+   
+            <h1 class="head">Reviews</h1>
+       <div class="row">
+           <div class="rev">
+               <img src="images/701.jpg">
+               <div>
+                   <p> Delicious dishes,beautiful presentation and  wonderful dessert.I  recommend to everyone!I would like to come back here again.</p>
+                   <h3>Sahil Choudhary</h3>
+               </div>
+           </div>
+           <div class="rev">
+            <img src="images/702.jpg">
+            <div>
+                <p>It's great expierence,Amazing food and services!I would like to come back here again and again.</p>
+                <h3>Aadhar Mehta</h3>
+            </div>
+        </div>
+       </div>
+   <div class="rv">
+       <h2> Add your Review</h2>
+       <div class="rev-box">
+           <div class="nme">
+               <input type="text" class="in" placeholder="Full Name....">
+           </div>
+           <div class="comment"> 
+        <textarea name="" class=" inp" placeholder="Type your Comment...." cols="40" rows="10"></textarea>       
+        </div>
+           <div class="image">
+               <div >
+                   
+                   <button type="file" class="upload">Upload Your image</button>
+               </div>
+               <div >
+                <button class="submit">Post review</button>
+               </div>
+           </div>
+       </div>
+   </div>
+       
+    </section>
+   
+    <section id="footer">
+        <h3>Contact Us</h3>
+        <div class="icons">
+            <a href="https://www.facebook.com/shivam.vijay.1612"  target="_blank"><i class="fa fa-facebook-f fa-2x"></i></a>
+            <a href="https://twitter.com/ShivamV22174889?s=09"  target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a  href="https://www.linkedin.com/in/shivamvijay1465/"  target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/shivam1234-hub"  target="_blank"><i class="fa fa-github fa-2x"></i></a>
+ 
+        </div>
+        <div class="last"> <i class="fa fa-copyright  cr">Shivam Vijay.All rights reserved. </i>
+           
+       
+      <div class="pad">
+        <button class="but" ><a class="bt" href="#top">Back to Top</a></button> 
+    </div>
+    </section>
+   
+  </div>
+
+  <script>
+    var navLinks=document.getElementById("navLinks");
+    var menubar=document.getElementById("show");
+    var Name=document.getElementById("name");
+    var own=document.getElementById("own")
+   ;
+     function showMenu()
+    {
+    navLinks.style.right="0";
+    menubar.style.color ="rgba(81, 80, 24, 0)";
+    Name.style.color ="rgb(251, 255, 0,.4)";
+    own.style.color="rgb(244, 239, 247,.5)";
+    }
+    
+   
+    function hideMenu()
+   {
+    navLinks.style.right="-200px";
+    Name.style.color="rgb(251, 255, 0)";
+    own.style.color ="white";
+    }
+    function chngcolor()
+    {
+        menubar.style.color ="rgb(229, 255, 0)";
+    }
+  
+    // function chngtext0()
+    // {
+    //     document.getElementById("btton0").innerText="Added";
+    // }
+    // function chngtext1()
+    // {
+    //     document.getElementById("btton1").innerText="Added";
+    // }
+    // function chngtext2()
+    // {
+    //     document.getElementById("btton2").innerText="Added";
+    // }
+
+
+
+
+    </script>
+</body>
+</html>
