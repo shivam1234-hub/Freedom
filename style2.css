@@ -771,3 +771,11 @@ nav{
         
     }
 }
+.bg{
+  
+   box-shadow: 2px 2px 5px 5px rgb(255, 217, 0);
+   
+}
+.rev{
+    box-shadow: 2px 2px 5px 5px rgb(43, 255, 0);
+}
