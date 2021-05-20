@@ -324,8 +324,7 @@ nav{
     background-color:#ccedf3;
     /* border:2.5px solid rgb(6, 29, 240); */
    
-        border-radius:40px;
-    margin:2%;
+        
     box-shadow:1px 1px 4.5px 5px  rgba(17, 239, 255, 0.993)
     
     }
@@ -669,7 +668,7 @@ nav{
   
 }
 .rv{
-    margin:2%;
+   
     margin-top:70px;
     
    
